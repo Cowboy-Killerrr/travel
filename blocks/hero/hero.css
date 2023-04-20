@@ -1,0 +1,15 @@
+.hero {
+  max-width: 984px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1024px) {
+  .hero {
+    padding: 0 48px 0 48px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero {
+    padding: 0;
+  }
+}

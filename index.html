@@ -8,6 +8,7 @@
     <title>Путшествия по России</title>
   </head>
   <body class="page">
+    <!-- header -->
     <header class="header">
       <svg class="header__logo">
         <path
@@ -42,5 +43,35 @@
         <li><button class="header__btn">En</button></li>
       </ul>
     </header>
+
+    <main class="main">
+      <!-- hero -->
+      <section class="hero">
+        <h1 class="hero__title">Путешествия по России</h1>
+        <p class="hero__subtitle">
+          Настоящая страна не в выпусках новостей, а здесь.
+        </p>
+        <picture>
+          <source
+            srcset="./img/hero__image-sizeS.jpg"
+            media="(max-width: 320px)"
+          />
+          <source
+            srcset="./img/hero__image-sizeM.jpg"
+            media="(max-width: 768px)"
+          />
+          <source
+            srcset="./img/hero__image-sizeL.jpg"
+            media="(max-width: 1024px)"
+          />
+          <img
+            src="./img/hero__image-sizeXL.jpg"
+            alt="Изображение маршрута"
+            class="hero__image"
+          />
+        </picture>
+        <p class="hero__image-subtext">Ваша полка — верхняя</p>
+      </section>
+    </main>
   </body>
 </html>
