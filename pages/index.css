@@ -47,3 +47,9 @@
 @import url('../blocks/place/__image/place__image.css');
 @import url('../blocks/place/__about/place__about.css');
 @import url('../blocks/place/__paragraph/place__paragraph.css');
+
+/* cover */
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/cover/__link/cover__link.css');
+@import url('../blocks/cover/__title/cover__title.css');
+@import url('../blocks/cover/__subtitle/cover__subtitle.css');
