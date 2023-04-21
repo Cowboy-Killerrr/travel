@@ -1,0 +1,6 @@
+.place__about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 26px;
+}
