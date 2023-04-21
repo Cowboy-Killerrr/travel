@@ -18,3 +18,13 @@
 @import url('../blocks/hero/__subtitle/hero__subtitle.css');
 @import url('../blocks/hero/__image/hero__image.css');
 @import url('../blocks/hero/__image-subtext/hero__image-subtext.css');
+
+/* description */
+@import url('../blocks/descr/descr.css');
+@import url('../blocks/descr/__article/descr__article.css');
+@import url('../blocks/descr/__title/descr__title.css');
+@import url('../blocks/descr/__paragraph/descr__paragraph.css');
+@import url('../blocks/descr/__digits/descr__digits.css');
+@import url('../blocks/descr/__digit-title/descr__digit-title.css');
+@import url('../blocks/descr/__digit/descr__digit.css');
+
