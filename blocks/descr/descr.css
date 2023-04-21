@@ -1,15 +1,20 @@
 .descr {
-  padding: 92px 0;
+  padding: 92px 48px;
   max-width: 984px;
   margin: 0 auto;
 }
+@media screen and (max-width: 1024px) {
+  .descr {
+    max-width: 928px;
+  }
+}
 @media screen and (max-width: 768px) {
-    .descr {
-        padding: 88px 24px;
-      }
+  .descr {
+    padding: 88px 24px;
+  }
 }
 @media screen and (max-width: 320px) {
-    .descr {
-        padding: 64px 16px;
-      }
+  .descr {
+    padding: 64px 16px;
+  }
 }
