@@ -5,14 +5,16 @@
   display: flex;
   gap: 18px;
 }
+
 @media screen and (max-width: 690px) {
-    .footer__links {
-        flex-direction: column;
-      }
+  .footer__links {
+    flex-direction: column;
+  }
 }
+
 @media screen and (max-width: 520px) {
-    .footer__links {
-        flex-direction: column;
-        gap: 32px;
-      }
+  .footer__links {
+    flex-direction: column;
+    gap: 32px;
+  }
 }

@@ -6,16 +6,19 @@
   justify-content: space-between;
   align-items: center;
 }
+
 @media screen and (max-width: 768px) {
   .footer {
     padding: 88px 24px 24px 24px;
   }
 }
+
 @media screen and (max-width: 690px) {
   .footer {
     align-items: flex-end;
   }
 }
+
 @media screen and (max-width: 520px) {
   .footer {
     padding: 64px 16px 24px 16px;

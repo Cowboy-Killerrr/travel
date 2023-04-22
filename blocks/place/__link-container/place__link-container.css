@@ -4,6 +4,7 @@
   align-items: flex-start;
   gap: 12px;
 }
+
 @media screen and (max-width: 425px) {
   .place__link-container {
     padding: 0 16px;

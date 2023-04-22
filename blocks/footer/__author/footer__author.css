@@ -4,8 +4,9 @@
   font-size: 14px;
   line-height: 1.1;
 }
+
 @media screen and (max-width: 520px) {
-    .footer__author {
-        line-height: 1;
-      }
+  .footer__author {
+    line-height: 1;
+  }
 }
